@@ -3,7 +3,7 @@ module.exports = Object.freeze({
   ARIA_SECRET: 'pronoob',
   ARIA_DOWNLOAD_LOCATION: '/home/user/path/to/download/dir (no trailing "/")',
   ARIA_DOWNLOAD_LOCATION_ROOT: '/', //The mountpoint that contains ARIA_DOWNLOAD_LOCATION
-  ARIA_FILTERED_DOMAINS: [] , // Prevent downloading from URLs containing these substrings
+  ARIA_FILTERED_DOMAINS: [], // Prevent downloading from URLs containing these substrings
   ARIA_FILTERED_FILENAMES: [], // Files/top level directories with these substrings in the filename won't be downloaded
   ARIA_PORT: 8210, // Port for aria2c RPC server, if you change this here, make sure to update aria.sh as well
   INDEX_DOMAIN: 'https://its.pronoobgdrivemoviess.workers.dev/Pronoobcloud/', //Get it from here https://gdindex-code-builder.glitch.me/
