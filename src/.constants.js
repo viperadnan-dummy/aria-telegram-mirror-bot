@@ -1,6 +1,6 @@
 module.exports = Object.freeze({
   TOKEN: '1127223616:AAFp7b9B5UUwecICHawwzidX68NoeZXDL2I',
-  ARIA_SECRET: 'aria2_secret',
+  ARIA_SECRET: 'pronoob',
   ARIA_DOWNLOAD_LOCATION: '/home/user/path/to/download/dir (no trailing "/")',
   ARIA_DOWNLOAD_LOCATION_ROOT: '/', //The mountpoint that contains ARIA_DOWNLOAD_LOCATION
   ARIA_FILTERED_DOMAINS: ['yts', 'YTS', 'cruzing.xyz', 'eztv.ag', 'YIFY', 'HDCAM', 'CAMRIP', '1xbet', 'preDVD', 'predvdrip', '.php', '.html'], // Prevent downloading from URLs containing these substrings
@@ -9,21 +9,21 @@ module.exports = Object.freeze({
   INDEX_DOMAIN: 'https://its.pronoobgdrivemoviess.workers.dev/Pronoobcloud/', //Get it from here https://gdindex-code-builder.glitch.me/
   GDRIVE_PARENT_DIR_ID: '1skZrysCrlI6lWo2a2IIjHEDxxlmCtKpU',
   SUDO_USERS: [882130858],	// Telegram user IDs. These users can use the bot in any chat.
-  AUTHORIZED_CHATS: [-413839240],	// Telegram chat IDs. Anyone in these chats can use the bot.
+  AUTHORIZED_CHATS: [-1001403349196],	// Telegram chat IDs. Anyone in these chats can use the bot.
   STATUS_UPDATE_INTERVAL_MS: 12000, // A smaller number will update faster, but might cause rate limiting
   DRIVE_FILE_PRIVATE: {
     ENABLED: false,
     EMAILS: ['someMail@gmail.com', 'someOtherMail@gmail.com']
   },
   DOWNLOAD_NOTIFY_TARGET: {  // Information about the web service to notify on download completion.
-    enabled: true,   // Set this to true to use the notify functionality
+    enabled: false,   // Set this to true to use the notify functionality
     host: 'hostname.domain',
     port: 80,
     path: '/botNotify'
   },
   COMMANDS_USE_BOT_NAME: {
-    ENABLED: false,  // If true, all commands except '/list' has to have the bot username after the command
-    NAME: "@nameOf_bot"
+    ENABLED: true,  // If true, all commands except '/list' has to have the bot username after the command
+    NAME: "@TorrentDriveDown_bot"
   },
   IS_TEAM_DRIVE: false
 });
