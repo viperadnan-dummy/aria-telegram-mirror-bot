@@ -8,8 +8,8 @@ module.exports = Object.freeze({
   ARIA_PORT: 8210, // Port for aria2c RPC server, if you change this here, make sure to update aria.sh as well
   INDEX_DOMAIN: 'https://its.pronoobgdrivemoviess.workers.dev/Pronoobcloud/', //Get it from here https://gdindex-code-builder.glitch.me/
   GDRIVE_PARENT_DIR_ID: '1skZrysCrlI6lWo2a2IIjHEDxxlmCtKpU',
-  SUDO_USERS: [012, 345],	// Telegram user IDs. These users can use the bot in any chat.
-  AUTHORIZED_CHATS: [678, 901],	// Telegram chat IDs. Anyone in these chats can use the bot.
+  SUDO_USERS: [882130858],	// Telegram user IDs. These users can use the bot in any chat.
+  AUTHORIZED_CHATS: [-413839240],	// Telegram chat IDs. Anyone in these chats can use the bot.
   STATUS_UPDATE_INTERVAL_MS: 12000, // A smaller number will update faster, but might cause rate limiting
   DRIVE_FILE_PRIVATE: {
     ENABLED: false,
